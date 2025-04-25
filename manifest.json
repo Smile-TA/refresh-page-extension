@@ -1,0 +1,17 @@
+{
+  "name": "Reload confirmation page",
+  "description": "Reloads confirmation page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "favicon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://www.vspdirect.staging.tawebhost.com/checkout/confirmation/*"
+      ]
+    }
+  ]
+}
