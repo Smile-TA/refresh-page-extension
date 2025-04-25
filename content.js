@@ -6,4 +6,4 @@ setInterval(() => {
       text: `Page refreshed at ${new Date()}, with url: ${window.location}`,
     });
   }
-}, 2000);
+}, 1000 * 60 * 60 * 2);
